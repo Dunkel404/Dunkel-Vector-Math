@@ -33,4 +33,4 @@ float abs(float a)
 Abs is extremely inexpensive in coding. 
 
 # references
-[max](./max)
+[max](./max.md)
