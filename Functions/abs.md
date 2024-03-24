@@ -5,11 +5,16 @@
 
 ## Math formula: 
 $$Symbol: |a|$$
+
 $$x = \begin{cases}  a & \text{if } a > 0 \\  0 & \text{otherwise}  \end{cases}$$
 
+
 $$|-3| = 3$$
+
 $$|2| = 2$$
+
 ![abs.webp](../Source/abs.webp)
+
 
 
 ### parameters:
