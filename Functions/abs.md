@@ -3,12 +3,13 @@
 ## Code example:
 `DMath.abs(a);`
 
-## Math example: 
+## Math formula: 
 $$Symbol: |a|$$
+$$x = \begin{cases}  a & \text{if } a > 0 \\  0 & \text{otherwise}  \end{cases}$$
 
 $$|-3| = 3$$
 $$|2| = 2$$
-![abs.webp](../source/abs.webp)
+![abs.webp](../Source/abs.webp)
 
 
 ### parameters:
@@ -20,7 +21,7 @@ Returns the absolute value of a scalar or vector.
 The absolute value, or modulus, represents the distance from a scalar to 0
 
 # Code Implementation
-**abs** implementation for a **float**.
+**abs** implementation for a **float** scalar.
 
 ```
 float abs(float a)
@@ -30,7 +31,8 @@ float abs(float a)
 ```
 # Performance Info
 
-Abs is extremely inexpensive in coding. 
+**Abs** is extremely inexpensive in coding. 
 
 # references
 [max](./max.md)
+
