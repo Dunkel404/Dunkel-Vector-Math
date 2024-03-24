@@ -6,13 +6,19 @@
 ## Math formula: 
 $$with Scalars:$$
 
+
 $$x = \begin{cases}  a & \text{if } a > b \\  b & \text{otherwise}  \end{cases}$$
+
 
 $$with Vectors:$$
 
+
 $$x_x = \begin{cases}  a_x & \text{if } a_x > b_x \\  b_x & \text{otherwise}  \end{cases}$$
+
 $$x_y = \begin{cases}  a_y & \text{if } a_y > b_y \\  b_y & \text{otherwise}  \end{cases}$$
+
 $$x_z = \begin{cases}  a_z & \text{if } a_z > b_z \\  b_z & \text{otherwise}  \end{cases}$$
+
 $$x=(x_x,x_y,x_z)$$
 
 ### parameters:
@@ -25,7 +31,7 @@ Returns the maximum of two same-typed scalars **a** and **b** or the respective 
 # Code Implementation
 **max** implementation for a **float3** vector.
 
-```
+```C
 float3 max(float3 a, float3 b)
 {
   return float3(a.x > b.x ? a.x : b.x,
